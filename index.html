@@ -203,7 +203,7 @@
     <div class="section-inner reveal">
       <div class="eyebrow-row">
         <span data-i18n="projects.eyebrowLeft">/* projetos que construí */</span><span
-          data-i18n="projects.eyebrowRight">8 no total</span>
+          data-i18n="projects.eyebrowRight">5 no total</span>
       </div>
       <h2 data-i18n="projects.heading">
         Onde front-end, back-end, dados e segurança se encontram.
@@ -217,120 +217,77 @@
         <button class="filter-chip active" data-filter="ALL" data-i18n="projects.filterAll">
           TODOS
         </button>
-        <button class="filter-chip" data-filter="SECURITY">SECURITY</button>
-        <button class="filter-chip" data-filter="TOOL">TOOL</button>
-        <button class="filter-chip" data-filter="GAME">GAME</button>
         <button class="filter-chip" data-filter="AI">AI</button>
         <button class="filter-chip" data-filter="DASHBOARD">DASHBOARD</button>
         <button class="filter-chip" data-filter="WEB">WEB</button>
+        <button class="filter-chip" data-filter="GAME">GAME</button>
       </div>
     </div>
 
     <div class="proj-grid" id="projGrid">
-      <div class="proj-item reveal tilt-card" data-tag="SECURITY">
-        <div class="top-row">
-          <h3>Kraak</h3>
-          <span class="proj-tag">SECURITY</span>
-        </div>
-        <div class="tags">Next.js · .NET · TypeScript</div>
-        <p data-i18n="projects.kraak">
-          Analisador estático que detecta problemas de segurança em arquivos
-          de config (appsettings.json, .env, docker-compose.yml) — credenciais
-          expostas e más práticas antes do deploy.
-        </p>
-        <a class="link" href="https://github.com/thelustosa/Kraak" data-i18n="projects.link">Ver no GitHub ↗</a>
-      </div>
-
-      <div class="proj-item reveal tilt-card" data-tag="TOOL">
-        <div class="top-row">
-          <h3>Nibble Calc</h3>
-          <span class="proj-tag">TOOL</span>
-        </div>
-        <div class="tags">JavaScript · HTML · CSS</div>
-        <p data-i18n="projects.nibble">
-          Calculadora de endereçamento IP 100% no navegador. Sub-redes, VLSM,
-          detecção de sobreposições, análise IPv6 e um quiz interativo.
-        </p>
-        <a class="link" href="https://github.com/thelustosa/nibble" data-i18n="projects.link">Ver no GitHub ↗</a>
-      </div>
-
-      <div class="proj-item reveal tilt-card" data-tag="GAME">
-        <div class="top-row">
-          <h3>AEGIS</h3>
-          <span class="proj-tag">GAME</span>
-        </div>
-        <div class="tags">Node.js · APIs REST</div>
-        <p data-i18n="projects.aegis">
-          Plataforma gamificada para ensino interativo de fundamentos de
-          segurança da informação. Backend com APIs REST, sistema de
-          progressão, autenticação e feedback ao usuário.
-        </p>
-        <a class="link" href="https://github.com/thelustosa/aegis" data-i18n="projects.link">Ver no GitHub ↗</a>
-      </div>
       <div class="proj-item reveal tilt-card" data-tag="AI">
         <div class="top-row">
-          <h3>VelociBot</h3>
+          <h3>Automação de Autos de Infração (IA)</h3>
           <span class="proj-tag">AI</span>
         </div>
-        <div class="tags">Node.js · Next.js · Mistral · Supabase</div>
-        <p data-i18n="projects.velocibot">
-          Dev Dinossauro Assistente — chatbot com IA integrada ao Mistral e
-          persistência via Supabase.
+        <div class="tags">Python · Flask · Gemini AI · PostgreSQL</div>
+        <p data-i18n="projects.automa_infraction">
+          Sistema corporativo integrado à IA Generativa (Google Gemini/Groq) para triagem, extração de metadados,
+          auditoria e geração automatizada de resoluções de documentos jurídicos (com adequação à LGPD).
         </p>
-        <a class="link" href="https://github.com/thelustosa/velocibot" data-i18n="projects.link">Ver no GitHub ↗</a>
+        <a class="link" href="#" onclick="return false;" style="opacity: 0.7; cursor: default;">🔒 Projeto Interno</a>
       </div>
 
       <div class="proj-item reveal tilt-card" data-tag="DASHBOARD">
         <div class="top-row">
-          <h3>BioDash</h3>
+          <h3>Gestor de Filas de Atendimento</h3>
           <span class="proj-tag">DASHBOARD</span>
         </div>
-        <div class="tags">APIs REST · Banco relacional</div>
-        <p data-i18n="projects.biodash">
-          Plataforma de monitoramento com dashboard analítico para
-          visualização de dados em tempo real, apoiando a tomada de decisão.
+        <div class="tags">React · FastAPI · SQLite · WebSockets</div>
+        <p data-i18n="projects.gestor_filas">
+          Sistema completo de gerenciamento de filas e notícias. Uma solução moderna, robusta e em tempo real para
+          otimizar o atendimento ao cidadão.
         </p>
-        <a class="link" href="https://github.com/thelustosa/biodash" data-i18n="projects.link">Ver no GitHub ↗</a>
-      </div>
-      <div class="proj-item reveal tilt-card" data-tag="WEB">
-        <div class="top-row">
-          <h3>Astroly</h3>
-          <span class="proj-tag">WEB</span>
-        </div>
-        <div class="tags">React · TypeScript · Vite · Tailwind</div>
-        <p data-i18n="projects.astroly">
-          Landing page interativa inspirada no cosmos, com animações de
-          sistema solar e explorador de planetas.
-        </p>
-        <a class="link" href="https://github.com/thelustosa/astroly" data-i18n="projects.link">Ver no GitHub ↗</a>
+        <a class="link" href="https://github.com/thelustosa/gestor-de-filas" data-i18n="projects.link">Ver projeto ↗</a>
       </div>
 
-      <div class="proj-item reveal tilt-card" data-tag="SECURITY">
+      <div class="proj-item reveal tilt-card" data-tag="WEB">
         <div class="top-row">
-          <h3>Cerberus</h3>
-          <span class="proj-tag">SECURITY</span>
+          <h3>Fórum Automotivo BNR34</h3>
+          <span class="proj-tag">WEB</span>
         </div>
-        <div class="tags">Python · OSINT</div>
-        <p data-i18n="projects.cerberus">
-          Ferramenta modular em Python para coleta e análise de informações
-          públicas (OSINT). Mapeamento de superfície de ataque e
-          fingerprinting tecnológico.
+        <div class="tags">React · Vite · PHP · MySQL</div>
+        <p data-i18n="projects.forum_bnr34">
+          Uma aplicação web interativa desenvolvida em React para apresentar documentação histórica, galeria de fotos e
+          estatísticas de produção do lendário Nissan Skyline GT-R BNR34.
         </p>
-        <a class="link" href="https://github.com/thelustosa/cerberus-osint" data-i18n="projects.link">Ver no GitHub
-          ↗</a>
+        <a class="link" href="https://thebnr34.com/" data-i18n="projects.link">Ver projeto ↗</a>
       </div>
 
       <div class="proj-item reveal tilt-card" data-tag="GAME">
         <div class="top-row">
-          <h3>Sudoku</h3>
+          <h3>8-0</h3>
           <span class="proj-tag">GAME</span>
         </div>
-        <div class="tags">C# · .NET · XAML</div>
-        <p data-i18n="projects.sudoku">
-          Jogo de Sudoku com geração procedural de tabuleiros e interface
-          interativa.
+        <div class="tags">HTML5 · CSS3 · JavaScript</div>
+        <p data-i18n="projects.oito_zero">
+          Um aplicativo web interativo para sortear seleções e copas, além de permitir o "draft" de jogadores para
+          compor o seu esquadrão ideal com um visual de cartas colecionáveis.
         </p>
-        <a class="link" href="https://github.com/thelustosa/sudoku" data-i18n="projects.link">Ver no GitHub ↗</a>
+        <a class="link" href="https://thelustosa.github.io/eight-nil/" data-i18n="projects.link">Ver projeto ↗</a>
+      </div>
+
+      <div class="proj-item reveal tilt-card" data-tag="WEB">
+        <div class="top-row">
+          <h3>Site Pessoal</h3>
+          <span class="proj-tag">WEB</span>
+        </div>
+        <div class="tags">HTML · CSS · Bootstrap</div>
+        <p data-i18n="projects.site_pessoal">
+          Desenvolvimento deste portfólio utilizando HTML, CSS e JavaScript com Bootstrap, com foco em responsividade e
+          acessibilidade.
+        </p>
+        <a class="link" href="https://github.com/thelustosa/portfolio" data-i18n="projects.link">Ver projeto ↗</a>
       </div>
     </div>
     <p class="filter-empty" id="filterEmpty" style="display: none" data-i18n="projects.filterEmpty">
