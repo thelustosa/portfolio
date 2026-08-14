@@ -1,5 +1,7 @@
 # Portfolio Pessoal - Lucas Lustosa
 
+Acesse o portfolio online: https://thelustosa.github.io/portfolio/
+
 Este repositorio contem o codigo-fonte do meu portfolio pessoal web. A aplicacao foi desenvolvida para apresentar meus projetos, trajetoria profissional, competencias tecnicas e informacoes de contato de maneira clara, responsiva e interativa.
 
 ## Funcionalidades Principais
@@ -42,8 +44,9 @@ lustosa-dev-main/
 
 3. Abra o arquivo `index.html` em seu navegador de preferencia ou utilize a extensao Live Server do seu editor de codigo.
 
-## Contato
+## Links e Contato
 
+- Website Oficial: https://thelustosa.github.io/portfolio/
 - GitHub: https://github.com/thelustosa
 - LinkedIn: https://www.linkedin.com/in/lustosadev/
 - E-mail: lustosa.dev@gmail.com
